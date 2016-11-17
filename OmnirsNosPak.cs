@@ -21,7 +21,7 @@ namespace OmnirsNosPak
 		}
 		public override void AddRecipes()
 		{
-			VanillaRecipes.Add(this);
+			//VanillaRecipes.Add(this);
 		}
 		public static bool HasEquipped(int type)
 		{

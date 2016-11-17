@@ -1,8 +1,8 @@
-author = Omnir
-version = v0.0.0.1
+author = Omnir (with some porting help from Cheezegami)
+version = 0.0.0.2
 displayName = Omnirs Nostalgia Pack
 homepage = http://forums.terraria.org/index.php?threads/omnirs-nostalgia-pack.11875/
 hideCode = false
 hideResources = false
 includeSource = true
-buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
+buildIgnore = ignorecompile\*, *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*

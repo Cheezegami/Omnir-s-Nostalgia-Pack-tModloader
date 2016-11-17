@@ -101,12 +101,10 @@
     <Compile Include="Buffs\OmnirsShield.cs" />
     <Compile Include="Buffs\OmnirsWall.cs" />
     <Compile Include="Buffs\OmnirsWoodenShield.cs" />
-    <Compile Include="Items\Armors\New folder\OmnirsBrassArmor.cs" />
-    <Compile Include="Items\Armors\New folder\OmnirsBrassGreaves.cs" />
-    <Compile Include="Items\Armors\New folder\OmnirsBrassHelmet.cs" />
     <Compile Include="Items\Armors\OmnirsBrassArmor.cs" />
     <Compile Include="Items\Armors\OmnirsBrassGreaves.cs" />
     <Compile Include="Items\Armors\OmnirsBrassHelmet.cs" />
+    <Compile Include="Items\Armors\OmnirsCrystalGreaves.cs" />
     <Compile Include="Items\Armors\OmnirsDragonScaleGreaves.cs" />
     <Compile Include="Items\Armors\OmnirsDragonScaleHelmet.cs" />
     <Compile Include="Items\Armors\OmnirsDragonScaleMail.cs" />
@@ -145,9 +143,6 @@
     <Compile Include="Items\OmnirsBlackRobeTop.cs" />
     <Compile Include="Items\OmnirsBloodLance.cs" />
     <Compile Include="Items\OmnirsBluntline.cs" />
-    <Compile Include="Items\OmnirsBrassArmor.cs" />
-    <Compile Include="Items\OmnirsBrassGreaves.cs" />
-    <Compile Include="Items\OmnirsBrassHelmet.cs" />
     <Compile Include="Items\OmnirsBroadsword.cs" />
     <Compile Include="Items\OmnirsBurningFist.cs" />
     <Compile Include="Items\OmnirsChainArmor.cs" />
@@ -161,7 +156,6 @@
     <Compile Include="Items\OmnirsCrusaderHelmet.cs" />
     <Compile Include="Items\OmnirsCrystalArmor.cs" />
     <Compile Include="Items\OmnirsCrystalFullHelmet.cs" />
-    <Compile Include="Items\OmnirsCrystalGreaves.cs" />
     <Compile Include="Items\OmnirsCrystalHelmet.cs" />
     <Compile Include="Items\OmnirsDarkArmor.cs" />
     <Compile Include="Items\OmnirsDarkHelmet.cs" />
@@ -175,9 +169,6 @@
     <Compile Include="Items\OmnirsDoubleAxe.cs" />
     <Compile Include="Items\OmnirsDragonHammer.cs" />
     <Compile Include="Items\OmnirsDragonLance.cs" />
-    <Compile Include="Items\OmnirsDragonScaleGreaves.cs" />
-    <Compile Include="Items\OmnirsDragonScaleHelmet.cs" />
-    <Compile Include="Items\OmnirsDragonScaleMail.cs" />
     <Compile Include="Items\OmnirsDragoonArmor.cs" />
     <Compile Include="Items\OmnirsDragoonGreaves.cs" />
     <Compile Include="Items\OmnirsDragoonHelmet.cs" />
@@ -677,6 +668,24 @@
     <Content Include="Gores\OmnirsWitchGore1.png" />
     <Content Include="Gores\OmnirsWitchGore2.png" />
     <Content Include="Gores\OmnirsWitchGore3.png" />
+    <Content Include="Items\Armors\OmnirsBrassArmor.png" />
+    <Content Include="Items\Armors\OmnirsBrassArmor_Arm.png" />
+    <Content Include="Items\Armors\OmnirsBrassArmor_Body.png" />
+    <Content Include="Items\Armors\OmnirsBrassArmor_Body_Female.png" />
+    <Content Include="Items\Armors\OmnirsBrassGreaves.png" />
+    <Content Include="Items\Armors\OmnirsBrassGreaves_Legs.png" />
+    <Content Include="Items\Armors\OmnirsBrassHelmet.png" />
+    <Content Include="Items\Armors\OmnirsBrassHelmet_Head.png" />
+    <Content Include="Items\Armors\OmnirsCrystalGreaves.png" />
+    <Content Include="Items\Armors\OmnirsCrystalGreaves_Legs.png" />
+    <Content Include="Items\Armors\OmnirsDragonScaleGreaves.png" />
+    <Content Include="Items\Armors\OmnirsDragonScaleGreaves_Legs.png" />
+    <Content Include="Items\Armors\OmnirsDragonScaleHelmet.png" />
+    <Content Include="Items\Armors\OmnirsDragonScaleHelmet_Head.png" />
+    <Content Include="Items\Armors\OmnirsDragonScaleMail.png" />
+    <Content Include="Items\Armors\OmnirsDragonScaleMail_Arm.png" />
+    <Content Include="Items\Armors\OmnirsDragonScaleMail_Body.png" />
+    <Content Include="Items\Armors\OmnirsDragonScaleMail_Body_Female.png" />
     <Content Include="Items\New folder\New folder\OmnirsMasamune.png" />
     <Content Include="Items\New folder\New folder\OmnirsMetalKnuckles.png" />
     <Content Include="Items\New folder\New folder\OmnirsMoonring.png" />
@@ -735,14 +744,6 @@
     <Content Include="Items\OmnirsBlackRobeTop_Body_Female.png" />
     <Content Include="Items\OmnirsBloodLance.png" />
     <Content Include="Items\OmnirsBluntline.png" />
-    <Content Include="Items\OmnirsBrassArmor.png" />
-    <Content Include="Items\OmnirsBrassArmor_Arm.png" />
-    <Content Include="Items\OmnirsBrassArmor_Body.png" />
-    <Content Include="Items\OmnirsBrassArmor_Body_Female.png" />
-    <Content Include="Items\OmnirsBrassGreaves.png" />
-    <Content Include="Items\OmnirsBrassGreaves_Legs.png" />
-    <Content Include="Items\OmnirsBrassHelmet.png" />
-    <Content Include="Items\OmnirsBrassHelmet_Head.png" />
     <Content Include="Items\OmnirsBroadsword.png" />
     <Content Include="Items\OmnirsBurningFist.png" />
     <Content Include="Items\OmnirsChainArmor.png" />
@@ -771,8 +772,6 @@
     <Content Include="Items\OmnirsCrystalArmor_Body_Female.png" />
     <Content Include="Items\OmnirsCrystalFullHelmet.png" />
     <Content Include="Items\OmnirsCrystalFullHelmet_Head.png" />
-    <Content Include="Items\OmnirsCrystalGreaves.png" />
-    <Content Include="Items\OmnirsCrystalGreaves_Legs.png" />
     <Content Include="Items\OmnirsCrystalHelmet.png" />
     <Content Include="Items\OmnirsCrystalHelmet_Head.png" />
     <Content Include="Items\OmnirsDarkArmor.png" />
@@ -797,14 +796,6 @@
     <Content Include="Items\OmnirsDoubleAxe.png" />
     <Content Include="Items\OmnirsDragonHammer.png" />
     <Content Include="Items\OmnirsDragonLance.png" />
-    <Content Include="Items\OmnirsDragonScaleGreaves.png" />
-    <Content Include="Items\OmnirsDragonScaleGreaves_Legs.png" />
-    <Content Include="Items\OmnirsDragonScaleHelmet.png" />
-    <Content Include="Items\OmnirsDragonScaleHelmet_Head.png" />
-    <Content Include="Items\OmnirsDragonScaleMail.png" />
-    <Content Include="Items\OmnirsDragonScaleMail_Arm.png" />
-    <Content Include="Items\OmnirsDragonScaleMail_Body.png" />
-    <Content Include="Items\OmnirsDragonScaleMail_Body_Female.png" />
     <Content Include="Items\OmnirsDragoonArmor.png" />
     <Content Include="Items\OmnirsDragoonArmor_Arm.png" />
     <Content Include="Items\OmnirsDragoonArmor_Body.png" />
@@ -1016,6 +1007,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\" />
@@ -1051,11 +1043,10 @@
     <Folder Include="Projectiles\Ranged\" />
     <Folder Include="Projectiles\Thrown\" />
     <Folder Include="Projectiles\Yoyo\" />
-    <Folder Include="Sounds\Custom\" />
-    <Folder Include="Sounds\Item\" />
-    <Folder Include="Sounds\NPCHit\" />
-    <Folder Include="Sounds\NPCkilled\" />
-    <Folder Include="Tiles\" />
+    <Folder Include="Tiles\Sounds\Custom\" />
+    <Folder Include="Tiles\Sounds\Item\" />
+    <Folder Include="Tiles\Sounds\NPCHit\" />
+    <Folder Include="Tiles\Sounds\NPCkilled\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
