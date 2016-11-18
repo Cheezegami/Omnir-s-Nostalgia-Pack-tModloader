@@ -8,7 +8,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
+namespace OmnirsNosPak.Items.Weapons.Axes // Code modified from Zero-Exodus's code :)
 {
     public class OmnirsAxe : ModItem
 	{
@@ -18,15 +18,16 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.width = 30;
 			item.height = 30;
 			item.damage = 16;
-			item.knockBack = 3;
+			item.knockBack = 4f;
 			item.scale = 1;
-			item.axe = 25;
+			item.axe = 8; // Real axe power is this * 5
 			item.value = 4500;
 			item.useSound = 1;
 			item.useStyle = 1;
-			item.useTime = 21;
-			item.useAnimation = 25;
+            item.useTime = 28;
+			item.useAnimation = 31;
 			item.melee = true;
+            item.autoReuse = true;
 		}
 	}
 }

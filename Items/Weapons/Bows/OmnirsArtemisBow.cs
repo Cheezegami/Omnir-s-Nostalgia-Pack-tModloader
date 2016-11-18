@@ -8,7 +8,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
+namespace OmnirsNosPak.Items.Weapons.Bows // Code modified from Zero-Exodus's code :)
 {
 	public class OmnirsArtemisBow : ModItem
 	{
@@ -31,7 +31,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.autoReuse = true;
 			item.value = 41000000;
 			item.rare = 10;
-			item.shoot = 14;
+			item.shoot = ProjectileID.WoodenArrowFriendly;
 			item.shootSpeed = 20;
 		}
 	}

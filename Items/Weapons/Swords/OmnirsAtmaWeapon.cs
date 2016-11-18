@@ -8,16 +8,17 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
+namespace OmnirsNosPak.Items.Weapons.Swords // Code modified from Zero-Exodus's code :)
 {
 	public class OmnirsAtmaWeapon : ModItem
 	{
+        public float damageMultiplier = 1f;
 		public override void SetDefaults()
 		{
 			item.name = "Atma Weapon";
 			item.width = 58;
 			item.height = 58;
-			item.damage = 100;
+			item.damage = 1;
 			item.knockBack = 15;
 			item.rare = 10;
 			item.value = 49999999;
@@ -29,9 +30,13 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.melee = true;
 			item.autoReuse = true;
 		}
-		public override void ModifyHitNPC(Player player, NPC target, ref int damage, ref float knockBack, ref bool crit)
-		{
-			damage = (player.statLife);
-		}
-	}
+        public override void UpdateInventory(Player player) // Updates the Sword's damage whenever it is in the inventory and dynamically adjusts damage based on modifiers and player hp.
+        {
+            item.damage = (int)(player.statLife*damageMultiplier);
+        }
+        public override void HoldItem(Player player) // Syncs weapon damage when held in hand to prevent abuse.
+        {
+            item.damage = (int)(player.statLife*damageMultiplier); 
+        }
+    }
 }
