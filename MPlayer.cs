@@ -14,6 +14,7 @@ namespace OmnirsNosPak
     {
         public static bool dragoonJump = false;
         public static bool dragoonJump2 = false;
+        public bool dualCast = false;
 
         //MPlayer p = (MPlayer)player.GetModPlayer(mod, "MPlayer");
         //if(p.dragoonJump)player.jumpSpeedBoost += 10f;

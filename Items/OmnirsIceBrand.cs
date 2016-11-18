@@ -19,7 +19,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.height = 42;
 			item.damage = 72;
 			item.knockBack = 5;
-			item.scale = 1.05;
+			item.scale = 1.05f;
             item.rare = 8;
             item.toolTip = "Randomly casts Ice 2.";
             item.shoot = mod.ProjectileType("OmnirsSpellIce2Ball");

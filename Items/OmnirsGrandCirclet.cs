@@ -31,10 +31,10 @@ namespace OmnirsNosPak.Items
             player.statManaMax2 += 100;
         }
 
-		public override bool IsArmorSet(Item head, Item body, Item legs)
-		{
-            return (body.type == mod.ItemType("OmnirsBlackRobeTop") && legs.type == mod.ItemType("OmnirsBlackRobeBottoms")) 
-            or (body.type == mod.ItemType("OmnirsWhiteRobeTop") && legs.type == mod.ItemType("OmnirsWhiteRobeBottoms"));
+        public override bool IsArmorSet(Item head, Item body, Item legs)
+        {
+            return (body.type == mod.ItemType("OmnirsBlackRobeTop") && legs.type == mod.ItemType("OmnirsBlackRobeBottoms"))
+            || (body.type == mod.ItemType("OmnirsWhiteRobeTop") && legs.type == mod.ItemType("OmnirsWhiteRobeBottoms"));
 		}
 
         public override void UpdateArmorSet(Player player)

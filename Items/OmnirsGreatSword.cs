@@ -31,8 +31,8 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 		}
         public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
         {
-            if (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsGigas"].type)) damage *= 2;
+            /*if (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsGigas"].type)) damage *= 2;
             else if ((NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsFireGigas"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsIceGigas"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsIronGiant"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsRockGolem"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsClayGolem"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsIronGolem"].type))) damage *= 4;
-        }
+        */}
     }
 }

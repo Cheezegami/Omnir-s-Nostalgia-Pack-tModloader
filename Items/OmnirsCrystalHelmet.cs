@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
+using Terraria.ID;
 
 namespace OmnirsNosPak.Items
 {
@@ -45,7 +46,7 @@ namespace OmnirsNosPak.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(null, "OmnirsCrystalFullHelmet", 1);
-            recipe.AddTile(TileID.IronAnvil);
+            recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }

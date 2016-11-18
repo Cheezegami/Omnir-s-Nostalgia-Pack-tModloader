@@ -33,7 +33,8 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 		}
         public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
         {
-            MPlayer p = (MPlayer)player.GetModPlayer(mod, "MPlayer");
+            //MPlayer p = (MPlayer)player.GetModPlayer(mod, "MPlayer");
+            MPlayer p = new MPlayer();
             if (p.dualCast)
                 Projectile.NewProjectile(position.X, position.Y - 20, speedX * .9f, speedY * .9f, type, damage, knockBack, Main.myPlayer, 1, mod.ProjectileType("OmnirsSpellFire2Ball"));
             Projectile.NewProjectile(position.X, position.Y, speedX, speedY, type, damage, knockBack, Main.myPlayer, 1, mod.ProjectileType("OmnirsSpellFire2Ball"));

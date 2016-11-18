@@ -34,8 +34,8 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 		}
         public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
         {
-            if (npc.type == 87 || npc.type == 88 || npc.type == 89 || npc.type == 90 || npc.type == 170 || npc.type == 171 || npc.type == 370 || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsAncientDragon"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsAncientGreatDragon"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsHydra"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsTheWindFiendTiamat"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsTibianDragon"].type)) ||
-                (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsTibianDragonLord"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsFabledWyvern"].type))) damage *= 3;
+            if (target.type == 87 || target.type == 88 || target.type == 89 || target.type == 90 || target.type == 170 || target.type == 171 || target.type == 370 /*|| (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsAncientDragon"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsAncientGreatDragon"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsHydra"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsTheWindFiendTiamat"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsTibianDragon"].type)) ||
+                (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsTibianDragonLord"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsFabledWyvern"].type))*/) damage *= 3;
         }
     }
 }

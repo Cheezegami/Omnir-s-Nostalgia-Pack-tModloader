@@ -27,12 +27,12 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.useTime = 23;
 			item.useAnimation = 23;
 			item.melee = true;
-		}
+        }
         public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
         {
-            if (npc.type == 55 || npc.type == 57 || npc.type == 58 || npc.type == 63 || npc.type == 64 || npc.type == 65 || npc.type == 103 || npc.type == 220 || npc.type == 221 || npc.type == 224 || npc.type == 230 || npc.type == 370 || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsSahagin"].type)) ||
-               (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsSahaginChief"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsSahaginPrince"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraConstrictor"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraHydromancer"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraMantassin"].type)) ||
-               (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraPincher"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraPredator"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsTheWaterFiendKraken"].type))) damage *= 4;
-        }
-	}
-}
+            if (target.type == 55 || target.type == 57 || target.type == 58 || target.type == 63 || target.type == 64 || target.type == 65 || target.type == 103 || target.type == 220 || target.type == 221 || target.type == 224 || target.type == 230 || target.type == 370 /*(|| (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsSahagin"].type)) ||
+               NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsSahaginChief"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsSahaginPrince"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraConstrictor"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraHydromancer"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraMantassin"].type)) ||
+               (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraPincher"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsQuaraPredator"].type)) || (NPC.AnyNPCs(NPCDef.byName["OmnirsNosPak:OmnirsTheWaterFiendKraken"].type))*/) damage *= 4;
+        } 
+    }
+    }
