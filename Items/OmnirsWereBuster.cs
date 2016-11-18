@@ -32,7 +32,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
         public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
         {
             //if (NPC.AnyNPCs(NPCDef.byName["Werewolf"].type)) damage *= 4;
-            if (npc.type == 104 || npc.type == 343)
+            if (target.type == 104 || target.type == 343)
             {
                 damage *= 4;
             }

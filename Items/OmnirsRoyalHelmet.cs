@@ -18,9 +18,7 @@ namespace OmnirsNosPak.Items
             item.name = "Royal Helmet";
 			item.width = 20;
 			item.height = 26;
-            item.toolTip = "An excellent masterpiece of a smith.";
-            AddTooltip2("+4% critical chance.");
-            AddTooltip3("Can be used with the golden armor and legs.");
+            item.toolTip = "An excellent masterpiece of a smith.\n+4% critical chance.\nCan be used with the golden armor and legs.";
 			item.value = 300000;
 			item.rare = 6;
 			item.defense = 7;

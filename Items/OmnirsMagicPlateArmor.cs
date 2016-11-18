@@ -19,8 +19,7 @@ namespace OmnirsNosPak.Items
             item.name = "Magic Plate Armor";
             item.width = 20;
             item.height = 20;
-            AddTooltip("Fueled by a magical gem in the chest.");
-            AddTooltip2("+20% melee speed", "-20% mana cost", "20% not to consume ammo.");
+            AddTooltip("Fueled by a magical gem in the chest.\n+20% melee speed\n-20% mana cost\n20% not to consume ammo.");
             item.value = 4000000;
             item.rare = 9;
             item.defense = 15;

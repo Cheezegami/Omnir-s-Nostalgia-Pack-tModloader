@@ -19,7 +19,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.height = 28;
 			item.damage = 8;
 			item.knockBack = 7;
-			item.scale = 0.8;
+			item.scale = 0.8f;
 			item.rare = 1;
 			item.value = 150;
 			item.useSound = 1;
