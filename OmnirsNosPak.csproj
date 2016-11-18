@@ -113,8 +113,8 @@
     <Compile Include="Items\OmnirsBardsTunicTop.cs" />
     <Compile Include="Items\OmnirsBastSkirtBottom.cs" />
     <Compile Include="Items\OmnirsBastSkirtTop.cs" />
-    <Compile Include="Items\OmnirsBattleAxe.cs" />
-    <Compile Include="Items\OmnirsBattleHammer.cs" />
+    <Compile Include="Items\Weapons\Axes\OmnirsBattleAxe.cs" />
+    <Compile Include="Items\Weapons\Hammers\OmnirsBattleHammer.cs" />
     <Compile Include="Items\OmnirsBeholderHelmet.cs" />
     <Compile Include="Items\OmnirsBlackRobeBottoms.cs" />
     <Compile Include="Items\OmnirsBlackRobeTop.cs" />
@@ -125,7 +125,7 @@
     <Compile Include="Items\OmnirsChainArmor.cs" />
     <Compile Include="Items\OmnirsChainCoif.cs" />
     <Compile Include="Items\OmnirsChainGreaves.cs" />
-    <Compile Include="Items\OmnirsClub.cs" />
+    <Compile Include="Items\Weapons\Hammers\OmnirsClub.cs" />
     <Compile Include="Items\OmnirsCoralSword.cs" />
     <Compile Include="Items\OmnirsCrownArmor.cs" />
     <Compile Include="Items\OmnirsCrownGreaves.cs" />
@@ -672,8 +672,8 @@
     <Content Include="Items\OmnirsBastSkirtTop_Arms.png" />
     <Content Include="Items\OmnirsBastSkirtTop_Body.png" />
     <Content Include="Items\OmnirsBastSkirtTop_FemaleBody.png" />
-    <Content Include="Items\OmnirsBattleAxe.png" />
-    <Content Include="Items\OmnirsBattleHammer.png" />
+    <Content Include="Items\Weapons\Axes\OmnirsBattleAxe.png" />
+    <Content Include="Items\Weapons\Hammers\OmnirsBattleHammer.png" />
     <Content Include="Items\OmnirsBeholderHelmet.png" />
     <Content Include="Items\OmnirsBeholderHelmet_Head.png" />
     <Content Include="Items\OmnirsBlackRobeBottoms.png" />
@@ -694,7 +694,7 @@
     <Content Include="Items\OmnirsChainCoif_Head.png" />
     <Content Include="Items\OmnirsChainGreaves.png" />
     <Content Include="Items\OmnirsChainGreaves_Legs.png" />
-    <Content Include="Items\OmnirsClub.png" />
+    <Content Include="Items\Weapons\Hammers\OmnirsClub.png" />
     <Content Include="Items\OmnirsCoralSword.png" />
     <Content Include="Items\OmnirsCrownArmor.png" />
     <Content Include="Items\OmnirsCrownArmor_Arms.png" />
@@ -986,7 +986,6 @@
     <Folder Include="Items\Vanilla\" />
     <Folder Include="Items\Weapons\Boomerangs\" />
     <Folder Include="Items\Weapons\Guns\" />
-    <Folder Include="Items\Weapons\Hammers\" />
     <Folder Include="Items\Weapons\Magic\" />
     <Folder Include="Items\Weapons\Other\" />
     <Folder Include="Items\Weapons\Spears\" />

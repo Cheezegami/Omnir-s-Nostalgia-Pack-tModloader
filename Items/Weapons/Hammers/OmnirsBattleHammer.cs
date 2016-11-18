@@ -8,7 +8,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
+namespace OmnirsNosPak.Items.Weapons.Hammers
 {
 	public class OmnirsBattleHammer : ModItem
 	{
@@ -25,9 +25,10 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.value = 350;
 			item.useSound = 1;
 			item.useStyle = 1;
-			item.useTime = 21;
-			item.useAnimation = 19;
+			item.useTime = 27;
+			item.useAnimation = 30;
 			item.melee = true;
+            item.autoReuse = true;
 		}
 	}
 }

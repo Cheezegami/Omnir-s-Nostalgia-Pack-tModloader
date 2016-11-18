@@ -14,7 +14,7 @@ namespace OmnirsNosPak.Items.Weapons.Axes // Code modified from Zero-Exodus's co
 	{
 		public override void SetDefaults() 
 		{
-			item.name = "Club";
+			item.name = "Axe";
 			item.width = 30;
 			item.height = 30;
 			item.damage = 16;
