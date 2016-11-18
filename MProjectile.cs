@@ -10,10 +10,10 @@ using Terraria.ModLoader;
 
 namespace OmnirsNosPak
 {
-	public class MProjectile : ModProjectile
+	public class MProjectile// : ModProjectile
 	{
 
-        public class ModProjectileShield : ModProjectile// Code by Yorai
+        public class ModProjectileShield// : ModProjectile// Code by Yorai
         {
             public virtual int DefenseBonus()
             {

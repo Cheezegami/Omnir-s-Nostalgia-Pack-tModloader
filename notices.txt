@@ -1,0 +1,5 @@
+Copied Male armor body texture to female armor body texture.
+	Sauron Armor, Giant Armor, Second Age Elven Armor, 
+
+Doesn't work yet for Modded NPCs: 
+	GigantAxe, HiRyuuSpear, GreatSword, Coral Sword, 

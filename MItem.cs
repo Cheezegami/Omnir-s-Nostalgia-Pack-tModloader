@@ -9,7 +9,7 @@ using Terraria.ModLoader;
 
 namespace OmnirsNosPak
 {
-	public class MItem : ModItem
+	public class MItem
 	{
         //int tempDef;
         //public void DamageNPC(Player P, NPC npc, ref int damage, ref float knockback)
