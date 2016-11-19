@@ -8,7 +8,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
+namespace OmnirsNosPak.Items.Weapons.Axes // Code modified from Zero-Exodus's code :)
 {
 	public class OmnirsFireAxe : ModItem
 	{

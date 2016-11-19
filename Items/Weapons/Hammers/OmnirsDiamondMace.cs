@@ -8,7 +8,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
+namespace OmnirsNosPak.Items.Weapons.Hammers // Code modified from Zero-Exodus's code :)
 {
     public class OmnirsDiamondMace : ModItem
 	{
@@ -17,7 +17,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
             item.name = "Diamond Mace";
 			item.width = 36;
 			item.height = 36;
-			item.damage = 90;
+			item.damage = 91;
 			item.knockBack = 11;
 			item.scale = 1.3f;
             item.toolTip = "A mace made of a large diamond.";
@@ -26,8 +26,8 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.value = 1009000;
 			item.useSound = 1;
 			item.useStyle = 1;
-			item.useTime = 15;
-			item.useAnimation = 20;
+			item.useTime = 26;
+			item.useAnimation = 32;
 			item.melee = true;
 		}
 	}

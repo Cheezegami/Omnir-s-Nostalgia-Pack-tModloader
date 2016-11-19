@@ -8,7 +8,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
+namespace OmnirsNosPak.Items.Weapons.Axes // Code modified from Zero-Exodus's code :)
 {
     public class OmnirsDualHaken : ModItem
 	{
@@ -20,14 +20,15 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.damage = 122;
 			item.knockBack = 7;
 			item.scale = 1.2f;
-			item.axe = 180;
+			item.axe = 37;
 			item.rare = 9;
 			item.value = 1450000;
 			item.useSound = 1;
 			item.useStyle = 1;
-			item.useTime = 15;
-			item.useAnimation = 27;
+			item.useTime = 17;
+			item.useAnimation = 32;
 			item.melee = true;
+            item.autoReuse = false;
 		}
 	}
 }

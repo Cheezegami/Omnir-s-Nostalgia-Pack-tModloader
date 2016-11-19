@@ -8,7 +8,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
+namespace OmnirsNosPak.Items.Weapons.Guns // Code modified from Zero-Exodus's code :)
 {
 	public class OmnirsBluntline : ModItem
 	{
@@ -22,16 +22,17 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.reuseDelay = 15;
 			item.useStyle = 5;
 			item.useSound = 5;
-			item.useAmmo = 14; //14; arrows
+            item.scale = 0.75f;
+            item.useAmmo = ProjectileID.Bullet;
 			item.damage = 48;
 			item.knockBack = 10;
 			item.noMelee = true;
 			item.ranged = true;
 			item.autoReuse = true;
-			item.value = 10000;
+			item.value = 100000;
 			item.rare = 6;
-			item.shoot = 14; //14; arrows
-			item.shootSpeed = 20;
+			item.shoot = ProjectileID.Bullet;
+            item.shootSpeed = 20;
 		}
 	}
 }
