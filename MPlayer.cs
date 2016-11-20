@@ -16,6 +16,13 @@ namespace OmnirsNosPak
         public static bool dragoonJump2 = false;
         public bool dualCast = false;
 
+        // Critical Damage Multiplier as used in Cheeze's Content Pack.
+        public float critMultiplier = 1.0f; // Base crit multiplier. Critical damage will be damage * this number + damage type modifier.
+        public float meleeCritMultiplier = 0.0f; // Melee Crit Multiplier, percentage that will be added onto the critical damage.
+        public float rangedCritMultiplier = 0.0f; // Ranged Crit Multiplier, percentage that will be added onto the critical damage.
+        public float magicCritMultiplier = 0.0f; // Magic Crit Multiplier, percentage that will be added onto the critical damage.
+        public float thrownCritMultiplier = 0.0f; // Thrown Crit Multiplier, percentage that will be added onto the critical damage.
+
         //MPlayer p = (MPlayer)player.GetModPlayer(mod, "MPlayer");
         //if(p.dragoonJump)player.jumpSpeedBoost += 10f;
 
@@ -63,11 +70,74 @@ namespace OmnirsNosPak
 
         //        }
         //    }
+
+
+
+        public override void ModifyHitNPC(Item item, NPC target, ref int damage, ref float knockback, ref bool crit)
+        {
+            if (crit == true) // Critical Damage Multiplier function as found in Cheeze's Content Pack for items.
+            {
+                if (item.melee == true) // Melee Crit
+                {
+                    damage = (int)(damage * (critMultiplier + meleeCritMultiplier)); // Damage gets amplified by the crit multiplier.
+                }
+                else if (item.ranged == true) // Ranged Crit
+                {
+                    damage = (int)(damage * (critMultiplier + rangedCritMultiplier));
+                }
+                else if (item.magic == true) // Magic Crit
+                {
+                    damage = (int)(damage * (critMultiplier + magicCritMultiplier));
+                }
+                else if (item.thrown == true) // Thrown Crit
+                {
+                    damage = (int)(damage * (critMultiplier + thrownCritMultiplier));
+                }
+                else
+                {
+                    damage = (int)(damage * critMultiplier); // Damage gets amplified by the crit multiplier.
+                }
+            }
+        }
+
+        public override void ModifyHitNPCWithProj(Projectile proj, NPC target, ref int damage, ref float knockback, ref bool crit)
+        {
+            if (crit == true) // Critical Damage Multiplier function as found in Cheeze's Content Pack for projectiles.
+            {
+                if (proj.melee == true) // Melee Crit
+                {
+                    damage = (int)(damage * (critMultiplier + meleeCritMultiplier)); // Damage gets amplified by the crit multiplier.
+                }
+                else if (proj.ranged == true) // Ranged Crit
+                {
+                    damage = (int)(damage * (critMultiplier + rangedCritMultiplier));
+                }
+                else if (proj.magic == true) // Magic Crit
+                {
+                    damage = (int)(damage * (critMultiplier + magicCritMultiplier));
+                }
+                else if (proj.thrown == true) // Thrown Crit
+                {
+                    damage = (int)(damage * (critMultiplier + thrownCritMultiplier));
+                }
+                else
+                {
+                    damage = (int)(damage * critMultiplier); // Damage gets amplified by the crit multiplier.
+                }
+            }
+        }
+
         public override void ResetEffects() // runs every update to reset all custom effects on a player, otherwise they persist
         {
             //jumpToggle = jumpToggle = (Main.GetKeyState((int)Microsoft.Xna.Framework.Input.Keys.Z) == 1); //this is how i re-did the jump boots, feel free to use
             dragoonJump = false;
             dragoonJump2 = false;
+
+            this.critMultiplier = 1.00f;
+            this.meleeCritMultiplier = 0.0f;
+            this.rangedCritMultiplier = 0.0f;
+            this.magicCritMultiplier = 0.0f;
+            this.thrownCritMultiplier = 0.0f;
         }
 
     }

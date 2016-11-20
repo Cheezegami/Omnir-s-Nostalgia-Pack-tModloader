@@ -108,7 +108,7 @@
     <Compile Include="Items\Armors\OmnirsDragonScaleGreaves.cs" />
     <Compile Include="Items\Armors\OmnirsDragonScaleHelmet.cs" />
     <Compile Include="Items\Armors\OmnirsDragonScaleMail.cs" />
-    <Compile Include="Items\OmnirsBardsHood.cs" />
+    <Compile Include="Items\Armors\OmnirsBardsHood.cs" />
     <Compile Include="Items\OmnirsBardsTunicBottoms.cs" />
     <Compile Include="Items\OmnirsBardsTunicTop.cs" />
     <Compile Include="Items\OmnirsBastSkirtBottom.cs" />
@@ -688,7 +688,7 @@
     <Content Include="Items\Armors\OmnirsDragonScaleMail_Arms.png" />
     <Content Include="Items\Armors\OmnirsDragonScaleMail_Body.png" />
     <Content Include="Items\Armors\OmnirsDragonScaleMail_FemaleBody.png" />
-    <Content Include="Items\OmnirsBardsHood.png" />
+    <Content Include="Items\Armors\OmnirsBardsHood.png" />
     <Content Include="Items\OmnirsBardsHood_Head.png" />
     <Content Include="Items\OmnirsBardsTunicBottoms.png" />
     <Content Include="Items\OmnirsBardsTunicBottoms_Legs.png" />
@@ -1030,13 +1030,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\" />
-    <Folder Include="bin\Release\" />
     <Folder Include="Dusts\" />
     <Folder Include="Gores\Bone\" />
     <Folder Include="Gores\Granite\" />
     <Folder Include="Gores\Mechanic\" />
     <Folder Include="Gores\Organic\" />
     <Folder Include="Items\Accessory\" />
+    <Folder Include="Items\Armors\Release\" />
     <Folder Include="Items\Blocks\" />
     <Folder Include="Items\Consumables\" />
     <Folder Include="Items\Materials\" />
