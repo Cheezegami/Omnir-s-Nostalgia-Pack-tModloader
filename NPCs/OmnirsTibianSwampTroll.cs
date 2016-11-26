@@ -43,7 +43,7 @@ namespace OmnirsNosPak.NPCs
             npc.knockBackResist = 0.5f;
             npc.width = 20;
             npc.height = 40;
-            npc.aiStyle = -1;
+            npc.aiStyle = 3; // Copied Zombie AI to get behavior.
             npc.soundHit = 1;
             npc.soundKilled = 1;
             npc.value = Item.buyPrice(0, 0, 0, 10);

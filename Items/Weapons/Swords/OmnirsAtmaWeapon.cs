@@ -12,7 +12,7 @@ namespace OmnirsNosPak.Items.Weapons.Swords // Code modified from Zero-Exodus's 
 {
 	public class OmnirsAtmaWeapon : ModItem
 	{
-        public float damageMultiplier = 1f;
+        public float damageMultiplier = 1f; // Damage Multiplier of the weapon.
 		public override void SetDefaults()
 		{
 			item.name = "Atma Weapon";
@@ -32,11 +32,15 @@ namespace OmnirsNosPak.Items.Weapons.Swords // Code modified from Zero-Exodus's 
 		}
         public override void UpdateInventory(Player player) // Updates the Sword's damage whenever it is in the inventory and dynamically adjusts damage based on modifiers and player hp.
         {
-            item.damage = (int)(player.statLife*damageMultiplier);
+            HoldStats(player);
         }
         public override void HoldItem(Player player) // Syncs weapon damage when held in hand to prevent abuse.
         {
-            item.damage = (int)(player.statLife*damageMultiplier); 
+            HoldStats(player);   
+        }
+        public void HoldStats(Player player) // Function to prevent double code in top two functions.
+        {
+            item.damage = (int)(player.statLife * damageMultiplier);
         }
     }
 }

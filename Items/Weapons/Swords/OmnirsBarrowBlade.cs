@@ -31,7 +31,7 @@ namespace OmnirsNosPak.Items.Weapons.Swords
 		}
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
 		{
-            if (target.name.Contains("Witchking") || target.name.Contains("Artorias")
+            if (target.name.Contains("Witchking") || target.name.Contains("Artorias"))
             {
                 try
                 {
