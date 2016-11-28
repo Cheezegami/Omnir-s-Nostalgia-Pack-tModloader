@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items
+namespace OmnirsNosPak.Items.Armors
 {
     public class OmnirsChainCoif : ModItem
 	{

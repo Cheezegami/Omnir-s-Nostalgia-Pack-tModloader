@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items
+namespace OmnirsNosPak.Items.Armors
 {
     public class OmnirsBeholderHelmet : ModItem
 	{
@@ -40,7 +40,7 @@ namespace OmnirsNosPak.Items
         public override void UpdateArmorSet(Player player)
         {
             player.setBonus = "+15% melee damage";
-            player.meleeDamage *= 0.15f;
+            player.meleeDamage *= 1.15f;
         }
 	}
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace OmnirsNosPak.Items
+namespace OmnirsNosPak.Items.Armors
 {
     public class OmnirsBlackRobeTop : ModItem
 	{
@@ -28,7 +28,7 @@ namespace OmnirsNosPak.Items
 
         public override void UpdateEquip(Player player)
         {
-            player.manaCost -= 0.15f;
+            player.manaCost *= 0.85f;
             player.magicDamage += 0.05f;
         }
 	}
