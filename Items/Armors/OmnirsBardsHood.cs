@@ -7,6 +7,13 @@ namespace OmnirsNosPak.Items.Armors
 {
     public class OmnirsBardsHood : ModItem
 	{
+        /// <summary>
+        /// All the Armors are to be placed in the Armors Subfolder.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="texture"></param>
+        /// <param name="equips"></param>
+        /// <returns>Armors</returns>
         public override bool Autoload(ref string name, ref string texture, IList<EquipType> equips)
 		{
 			equips.Add(EquipType.Head);
