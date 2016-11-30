@@ -256,6 +256,7 @@
     <Compile Include="Items\Weapons\Bows\OmnirsArtemisBow.cs" />
     <Compile Include="Items\Weapons\Swords\OmnirsAtmaWeapon.cs" />
     <Compile Include="Items\Weapons\Swords\OmnirsBarrowBlade.cs" />
+    <Compile Include="Items\Weapons\Swords\OmnirsGuardianUltimaWeapon.cs" />
     <Compile Include="MBase.cs" />
     <Compile Include="MItem.cs" />
     <Compile Include="MNPC.cs" />
@@ -981,6 +982,8 @@
     <Content Include="Items\Weapons\Bows\OmnirsArtemisBow.png" />
     <Content Include="Items\Weapons\Swords\OmnirsAtmaWeapon.png" />
     <Content Include="Items\Weapons\Swords\OmnirsBarrowBlade.png" />
+    <Content Include="Items\Weapons\Swords\OmnirsGuardianUltimaWeapon%28BackUp%29.png" />
+    <Content Include="Items\Weapons\Swords\OmnirsGuardianUltimaWeapon.png" />
     <Content Include="notices.txt" />
     <Content Include="NPCs\OmnirsTibianDemon.png" />
     <Content Include="NPCs\OmnirsTibianSwampTroll.png" />

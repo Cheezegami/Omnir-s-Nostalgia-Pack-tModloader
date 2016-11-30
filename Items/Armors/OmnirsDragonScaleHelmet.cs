@@ -23,6 +23,7 @@ namespace OmnirsNosPak.Items.Armors
 			item.value = 800000;
 			item.rare = 7;
 			item.defense = 9;
+            
 		}
 
         public override void UpdateEquip(Player player)
