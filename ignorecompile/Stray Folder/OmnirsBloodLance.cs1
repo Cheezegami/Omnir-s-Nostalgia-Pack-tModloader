@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 3;
 			item.value = 15000;
             //item.toolTip = "Drains the enemy of their life.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
 			item.useTime = 4;
 			item.useAnimation = 13;

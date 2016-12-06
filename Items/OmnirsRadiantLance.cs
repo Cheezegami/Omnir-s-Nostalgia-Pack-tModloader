@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 3;
 			item.value = 1500000;
             item.toolTip = "A light glows from this great spear.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
             item.useTime = 26;// 4;
             item.useAnimation = 26;// 13;

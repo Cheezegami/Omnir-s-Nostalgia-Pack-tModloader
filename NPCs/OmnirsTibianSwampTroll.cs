@@ -28,7 +28,7 @@ namespace OmnirsNosPak.NPCs
         public override float CanSpawn(NPCSpawnInfo spawnInfo)
         {
             Tile tile = Main.tile[spawnInfo.spawnTileX, spawnInfo.spawnTileY];
-            return (!spawnInfo.desertCave) ? 0.5f : 0f;
+            return (!spawnInfo.desertCave && OmnirsNosPak.NormalSpawn(spawnInfo) ? 0.5f : 0f);
         }
         #endregion
         //Spawns on the Surface and Underground in the Jungle. Does not spawn in Hardmode, if Town NPCs are nearby, or if Player reaches more than 140 health.
@@ -44,8 +44,8 @@ namespace OmnirsNosPak.NPCs
             npc.width = 20;
             npc.height = 40;
             npc.aiStyle = 3; // Copied Zombie AI to get behavior.
-            npc.soundHit = 1;
-            npc.soundKilled = 1;
+            npc.DeathSound = SoundID.NPCDeath1;
+            npc.HitSound = SoundID.NPCHit1;
             npc.value = Item.buyPrice(0, 0, 0, 10);
             npc.buffImmune[BuffID.Poisoned] = true;
             npc.buffImmune[BuffID.Venom] = true;

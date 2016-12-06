@@ -23,7 +23,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
             item.rare = 7;
             item.toolTip = "A blade that can make the earth tremble.";
             item.value = 170000;
-            item.useSound = 1;
+            item.UseSound = SoundID.Item1;
             item.useStyle = 1;
             item.useTime = 15;
             item.useAnimation = 24;

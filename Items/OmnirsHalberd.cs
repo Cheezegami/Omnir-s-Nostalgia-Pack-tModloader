@@ -21,7 +21,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.knockBack = 6.5f;
 			item.rare = 3;
 			item.value = 4000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
 			item.useTime = 4;
 			item.useAnimation = 13;

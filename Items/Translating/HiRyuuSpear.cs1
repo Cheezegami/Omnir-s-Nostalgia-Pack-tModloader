@@ -21,7 +21,7 @@ namespace DS.Items.Weapons
 			item.knockBack = 7;
 			item.rare = 5;
 			item.value = 430000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
 			item.useTime = 1;
 			item.useAnimation = 15;

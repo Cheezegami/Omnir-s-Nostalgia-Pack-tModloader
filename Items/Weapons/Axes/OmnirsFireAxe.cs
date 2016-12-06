@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items.Weapons.Axes // Code modified from Zero-Exodus's co
 			item.rare = 4;
 			item.value = 98000;
             item.toolTip = "The blade is a magic flame.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 15;
 			item.useAnimation = 29;

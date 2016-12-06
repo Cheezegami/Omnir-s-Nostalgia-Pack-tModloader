@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items.Weapons.Axes // Code modified from Zero-Exodus's co
 			item.scale = 1;
 			item.axe = 8; // Real axe power is this * 5
 			item.value = 4500;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
             item.useTime = 28;
 			item.useAnimation = 31;

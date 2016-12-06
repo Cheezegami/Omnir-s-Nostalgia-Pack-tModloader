@@ -22,7 +22,7 @@ namespace DS.Items.Weapons
 			item.rare = 2;
 			item.value = 15000;
 			item.toolTip = "Pierces multiple times on every hit.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
 			item.useTime = 4;
 			item.useAnimation = 13;

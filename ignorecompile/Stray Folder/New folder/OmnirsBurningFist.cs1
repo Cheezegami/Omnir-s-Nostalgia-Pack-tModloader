@@ -23,7 +23,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
             item.toolTip = "Randomly casts Fire 2.";
             item.shoot = mod.ProjectileType("OmnirsSpellFire2Ball");
 			item.value = 3500000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 21;
 			item.useAnimation = 12;

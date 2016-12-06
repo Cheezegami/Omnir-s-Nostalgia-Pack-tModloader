@@ -24,7 +24,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 4;
             item.toolTip = "An axe used to kill giant-kind.";
 			item.value = 120000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 23;
 			item.useAnimation = 27;

@@ -23,7 +23,7 @@ namespace OmnirsNosPak.Items.Weapons.Hammers
 			item.hammer = 55;
 			item.rare = 2;
 			item.value = 3500;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 27;
 			item.useAnimation = 30;

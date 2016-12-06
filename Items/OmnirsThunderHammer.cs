@@ -24,7 +24,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 10;
 			item.value = 1000000;
 			item.toolTip = "Said to be blessed";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 17;
 			item.useAnimation = 17;

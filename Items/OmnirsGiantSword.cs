@@ -23,7 +23,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 7;
 			item.value = 170000;
             item.toolTip = "Has been forged by ancient giants.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 21;
 			item.useAnimation = 30;

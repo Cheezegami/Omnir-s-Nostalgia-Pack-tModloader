@@ -22,8 +22,8 @@ namespace OmnirsNosPak.Hostile
 			npc.damage = 100;
 			npc.defense = 30;
 			npc.lifeMax = 8200;
-			npc.soundHit = 1;
-			npc.soundKilled = 5;
+            npc.DeathSound = SoundID.NPCDeath5;
+            npc.HitSound = SoundID.NPCHit1;
 			npc.value = 41000f;
 			npc.npcSlots = 100;
 			npc.knockBackResist = 0.1f;

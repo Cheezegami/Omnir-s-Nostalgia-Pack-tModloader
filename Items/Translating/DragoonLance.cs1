@@ -22,7 +22,7 @@ namespace DS.Items.Weapons
 			item.rare = 5;
 			item.value = 200000;
 			item.toolTip = "A spear forged from the fang of the Dragoon Serpent.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
 			item.useTime = 1;
 			item.useAnimation = 11;

@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 8;
 			item.value = 210000;
             item.toolTip = "A spear forged of metal and wyrmscale.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
 			item.useTime = 4;
 			item.useAnimation = 13;

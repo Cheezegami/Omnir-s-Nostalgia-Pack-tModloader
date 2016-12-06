@@ -25,7 +25,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
             item.toolTip = "Great spiked knuckles";
             item.rare = 3;
 			item.value = 100000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 21;
 			item.useAnimation = 8;

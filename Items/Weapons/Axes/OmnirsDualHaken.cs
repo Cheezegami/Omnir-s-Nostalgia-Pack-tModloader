@@ -23,7 +23,7 @@ namespace OmnirsNosPak.Items.Weapons.Axes // Code modified from Zero-Exodus's co
 			item.axe = 37;
 			item.rare = 9;
 			item.value = 1450000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 17;
 			item.useAnimation = 32;

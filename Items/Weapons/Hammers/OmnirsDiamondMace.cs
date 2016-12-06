@@ -24,7 +24,7 @@ namespace OmnirsNosPak.Items.Weapons.Hammers // Code modified from Zero-Exodus's
             item.hammer = 190;
 			item.rare = 9;
 			item.value = 1009000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 26;
 			item.useAnimation = 32;

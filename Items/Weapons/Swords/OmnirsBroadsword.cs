@@ -21,7 +21,7 @@ namespace OmnirsNosPak.Items.Weapons.Swords // Code modified from Zero-Exodus's 
 			item.knockBack = 4;
 			item.rare = 1;
 			item.value = 2500;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 21;
 			item.useAnimation = 17;

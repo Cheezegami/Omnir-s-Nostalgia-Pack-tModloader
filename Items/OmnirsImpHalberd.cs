@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 8;
 			item.value = 3500000;
             item.toolTip = "Crude crescent shaped fishing spear used by imps.";
-            item.useSound = 1;
+            item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
 			item.useTime = 26; //4;
 			item.useAnimation = 26; //13;

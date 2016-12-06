@@ -12,31 +12,25 @@ namespace OmnirsNosPak.Items.Weapons.Swords // Code modified from Zero-Exodus's 
 {
 	public class OmnirsGuardianUltimaWeapon : ModItem
 	{
-        public int damageMultiplier = 256;
-        public int baseDamage = 256;
+        public float damageMultiplier = 1f;
         public override void SetDefaults()
         {
             item.name = "Guardian Ultima Weapon";
-            item.scale = 1f;
-            item.width = (int)(78 * item.scale);
-            item.height = (int)(78 * item.scale);
-            item.damage = 256;
+            item.scale = 1.3f;
+            item.width = 80;
+            item.height = 80;
+            item.damage = 80;
             item.knockBack = 15;
             item.rare = 10;
             item.value = 9999999;
-            item.toolTip = "A sword that draws from the power of the wielder. Scales with current HP. \n Make sure to only reforge when at full HP for the best possible stats!";
-            item.useSound = 1;
+            item.toolTip = "A sword that draws from the power of the wielder. Scales with current HP!";
+            item.UseSound = SoundID.Item1;
             item.useStyle = 1;
             item.useTime = 30;
             item.useAnimation = 40;
             item.melee = true;
             item.autoReuse = true;
 
-            baseDamage = item.damage;
-        }
-        public override void PreReforge()
-        {
-            baseDamage = item.damage;
         }
         public override void UpdateInventory(Player player) // Updates the Sword's damage whenever it is in the inventory and dynamically adjusts damage based on modifiers and player hp.
         {
@@ -48,10 +42,8 @@ namespace OmnirsNosPak.Items.Weapons.Swords // Code modified from Zero-Exodus's 
         }
         public void HoldStats(Player player) // Function to prevent double code in top two functions.
         {
-            item.damage = baseDamage * ((player.statLife) + damageMultiplier) / ((player.statLifeMax2) + damageMultiplier);
-            item.scale = 0.5f + 0.8f * ((float)item.damage / (float)baseDamage);
-            item.width = (int)(78 * item.scale);
-            item.height = (int)(78 * item.scale);
+            item.damage = (int)((float)(player.statLife * damageMultiplier));
+            //item.scale = 0.65f + 0.6f * ((float)player.statLife / (float)player.statLifeMax2); Seems to mess with Cheat Sheet.
         }
         public override void AddRecipes()
         {

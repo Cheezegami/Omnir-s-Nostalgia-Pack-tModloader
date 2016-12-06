@@ -24,7 +24,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 3;
 			item.value = 100000;
 			item.toolTip = "An old choice for advancing druids.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 20;
 			item.useAnimation = 40;

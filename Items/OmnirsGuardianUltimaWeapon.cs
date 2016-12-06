@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 10;
 			item.value = 49999999;
 			item.toolTip = "A sword that draws from the power of the wielder. Scales with current HP.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 30;
 			item.useAnimation = 40;

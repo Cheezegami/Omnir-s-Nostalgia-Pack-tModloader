@@ -23,7 +23,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
             item.toolTip = "It's scabbard is adorned with a chrysanthemum.";
             item.rare = 6;
 			item.value = 38000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 21;
 			item.useAnimation = 15;

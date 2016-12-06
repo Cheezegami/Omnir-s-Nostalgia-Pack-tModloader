@@ -22,7 +22,7 @@ namespace DS.Items.Weapons
 			item.rare = 5;
 			item.value = 1880000;
 			item.toolTip = "Legendary spear fabled to hold sway over the world.\nIncreases attack damage by 50% when falling.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
 			item.useTime = 1;
 			item.useAnimation = 13;

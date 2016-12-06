@@ -21,7 +21,7 @@ namespace OmnirsNosPak.Items.Weapons.Guns // Code modified from Zero-Exodus's co
 			item.useAnimation = 20;
 			item.reuseDelay = 15;
 			item.useStyle = 5;
-			item.useSound = 5;
+			item.UseSound = SoundID.Item5;
             item.scale = 0.75f;
             item.useAmmo = ProjectileID.Bullet;
 			item.damage = 48;

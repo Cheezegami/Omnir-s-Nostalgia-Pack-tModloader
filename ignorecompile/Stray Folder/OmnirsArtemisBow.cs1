@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.useAnimation = 20;
 			item.reuseDelay = 15;
 			item.useStyle = 5;
-			item.useSound = 5;
+			item.UseSound = SoundID.Item5;
 			item.useAmmo = 14;
 			item.damage = 400;
 			item.knockBack = 19;

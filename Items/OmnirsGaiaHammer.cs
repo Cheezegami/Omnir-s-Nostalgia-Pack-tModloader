@@ -24,7 +24,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 7;
             item.toolTip = "Enchanted with the power of the Earth.";
 			item.value = 190000;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 15;
 			item.useAnimation = 30;

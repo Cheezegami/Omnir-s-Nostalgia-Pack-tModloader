@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items.Weapons.Hammers // Code modified from Zero-Exodus's
 			item.scale = 1;
 			item.hammer = 25;
 			item.value = 50;
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 33;
             item.reuseDelay = 10;

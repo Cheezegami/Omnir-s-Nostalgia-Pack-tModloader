@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.scale = 0.9f;
 			item.rare = 3;
 			item.value = 11000;
-			item.useSound = 1;
+            item.UseSound = SoundID.Item1;
 			item.useStyle = 1;
 			item.useTime = 23;
 			item.useAnimation = 23;

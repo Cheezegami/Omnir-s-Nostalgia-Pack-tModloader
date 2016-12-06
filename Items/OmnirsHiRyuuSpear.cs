@@ -22,7 +22,7 @@ namespace OmnirsNosPak.Items // Code modified from Zero-Exodus's code :)
 			item.rare = 9;
 			item.value = 430000;
             item.toolTip = "Great spear made highly efficient against dragons.";
-			item.useSound = 1;
+			item.UseSound = SoundID.Item1;
 			item.useStyle = 5;
             item.useTime = 21; //4;
             item.useAnimation = 21; //13;
