@@ -1,5 +1,5 @@
-author = Omnir (with some porting help from Cheezegami)
-version = 0.0.1
+author = Omnir, Cheezegami
+version = 0.0.2
 displayName = Omnirs Nostalgia Pack
 homepage = http://forums.terraria.org/index.php?threads/omnirs-nostalgia-pack.11875/
 hideCode = false

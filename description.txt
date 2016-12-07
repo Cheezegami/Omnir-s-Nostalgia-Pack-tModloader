@@ -3,3 +3,4 @@ This modpack contains a variety of nostalgic content inspired by "Final Fantasy,
 
 Changelog for the tModLoader version:
 v0.0.1:- The first compilable build, majority of the stuff is still broken. ~Cheeze.
+v0.0.2:- Updated for tModLoader 0.9
